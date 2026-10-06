@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery</title>
+    <!-- Paste your CSS link right here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <img src="bakery-logo_c.png" alt="The Neighborhood Bakery Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Include one h1 per page -->
+        <h1>Welcome to The Neighborhood Bakery</h1>
+
+        <!-- Welcome audio element with fallback text -->
+        <section>
+            <h2>Come On In!</h2>
+            <audio controls>
+                <source src="bakery-welcome_c.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. Please update your browser to listen to our welcome greeting.
+            </audio>
+            <p>We are so glad you are here! Step inside and see what is baking today.</p>
+        </section>
+
+        <!-- Featured item of the week with responsive picture element -->
+        <section>
+            <h2>Featured Item of the Week</h2>
+            <picture>
+                <source media="(min-width: 768px)" srcset="bakery-feature-large_c.png">
+                <img src="bakery-feature-small_c.png" alt="Display counter filled with fresh-baked assorted cookies and artisan treats">
+            </picture>
+            <p>This week, we are featuring our signature artisan cookies, baked fresh every morning!</p>
+        </section>
+
+        <!-- "What we're known for" summary -->
+        <section>
+            <h2>What We're Known For</h2>
+            <p>We are a community-centered bakery dedicated to warm, handmade artisan treats. From our crusty sourdough loaves to our sweet morning pastries, everything is crafted with love to make your commute or family gathering a little brighter.</p>
+        </section>
+
+        <!-- Hours and location snippet -->
+        <section>
+            <h2>Hours &amp; Location</h2>
+            <p><strong>Location:</strong> 123 Main Street, Neighborhood District</p>
+            <p><strong>Hours:</strong><br>
+            Tuesday – Sunday: 6:00 AM – 3:00 PM (Closed Mondays)</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Neighborhood Bakery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
