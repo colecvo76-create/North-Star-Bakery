@@ -1,4 +1,3 @@
-/* Step 2: Visual Design System */
 :root {
   --cream: #FFF8F0;
   --dark-brown: #3E2723;
@@ -7,7 +6,6 @@
   --card-bg: #F8F4F4;
 }
 
-/* Base Styling (Mobile-First) */
 body {
   font-family: Arial, sans-serif;
   color: var(--dark-brown);
@@ -29,7 +27,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* Main Content Container */
 main {
   max-width: 1000px;
   margin: 0 auto;
@@ -40,7 +37,6 @@ section {
   margin-bottom: 30px;
 }
 
-/* Style for intro text or subtitles */
 h3 + p, .subtitle {
   font-size: 15px;
   font-weight: 600;
@@ -48,13 +44,11 @@ h3 + p, .subtitle {
   margin-bottom: 15px;
 }
 
-/* Global Responsive Image & Media Rules */
 img, video {
   max-width: 100%;
   height: auto;
 }
 
-/* Header Logo Styling */
 header {
   background-color: var(--cream);
   text-align: center;
@@ -68,7 +62,6 @@ header img {
   margin: 10px auto;
 }
 
-/* Controlled styling for feature / spotlight images and video */
 main img, section img, video {
   max-width: 600px;
   width: 100%;
@@ -78,7 +71,6 @@ main img, section img, video {
   border-radius: 8px;
 }
 
-/* Figures & Captions */
 figure {
   margin: 0;
   padding: 0;
@@ -92,7 +84,6 @@ figcaption {
   margin-top: 8px;
 }
 
-/* Navigation (Mobile-First) */
 nav {
   background-color: var(--dark-brown);
   padding: 15px;
@@ -120,7 +111,6 @@ nav a:hover, nav a:focus {
   color: var(--caramel);
 }
 
-/* Products Flexbox Grid (Mobile-First: 1 column) */
 .product-container {
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +139,6 @@ nav a:hover, nav a:focus {
   margin-bottom: 10px;
 }
 
-/* Form Styling (Contact Page) */
 form {
   background-color: var(--card-bg);
   padding: 20px;
@@ -210,7 +199,6 @@ button[type="submit"]:hover {
   background-color: var(--dark-brown);
 }
 
-/* Footer */
 footer {
   background-color: var(--dark-brown);
   color: var(--cream);
@@ -223,7 +211,6 @@ footer p {
   margin: 0;
 }
 
-/* Media Query for Larger Screens */
 @media (min-width: 768px) {
   nav ul {
     flex-direction: row;
