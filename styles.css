@@ -227,6 +227,7 @@ footer p {
     width: auto;
   }
 }
+<<<<<<< HEAD
 .error-message {
   color: #c92a2a;
   font-size: 0.85rem;
@@ -252,3 +253,5 @@ footer p {
   border-radius: 6px;
   font-size: 1.05rem;
 }
+=======
+>>>>>>> 6609e3eb18daae93a15d972de00e660ef91b69e3
